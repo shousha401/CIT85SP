@@ -1,0 +1,18 @@
+ul li.red {
+    color: red;
+  }
+
+  ul li.black {
+    color: black;
+  }
+  ul li.green {
+    color: green;
+  }
+  ul li#another {
+    background-color: yellow;
+    color: red;
+  }
+  ul li#select {
+    background-color: red;
+    color: white;
+  }

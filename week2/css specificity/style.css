@@ -1,0 +1,50 @@
+div, p, h1 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+  }
+
+  .blue {
+    color: blue;
+  }
+
+  .red {
+    color: rgb(132, 36, 36);
+  }
+
+  .green {
+    color: rgb(32, 185, 32);
+  }
+
+  #myDiv {
+    color: rgb(144, 100, 18);
+  }
+/* 1 element selector  */
+  a {
+    color: rgb(189, 16, 189);
+  }
+/* 1 element selector + 1 class selector */
+  p.blue {
+    color: rgb(52, 184, 184);
+  }
+
+  /* 1 element selector + 1 class selector */
+  p.red {
+    color: rgb(93, 9, 9);
+  }
+
+  /* 1 element selector + 1 class selector */
+  p.green {
+    color: rgb(31, 94, 31);
+  }
+
+  /* 2 element selectors */
+  div p {
+    color: rgb(50, 50, 168);
+  }
+
+
+  /*  1 id selector + 1 element selector */
+  #myDiv a {
+    color: rgb(32, 32, 4);
+  }

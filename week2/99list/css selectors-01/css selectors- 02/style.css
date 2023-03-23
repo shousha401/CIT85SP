@@ -1,0 +1,23 @@
+ul li:first-child {
+    color: red;
+  }
+
+  ul li:last-child {
+    color: yellow
+  }
+
+  ul li:nth-child(even) {
+    color: brown;
+  }
+
+  ul li:nth-child(odd) {
+    color: green;
+  }
+
+  ul li:only-child {
+    background-color: red;
+  }
+
+  ul li:nth-child(3n+2) {
+    background-color: yellow;
+  }

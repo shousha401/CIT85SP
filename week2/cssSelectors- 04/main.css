@@ -1,0 +1,19 @@
+
+div p {
+    color: rgb(140, 52, 52);
+  }
+
+  div > p {
+    color: rgb(1, 1, 12);
+  }
+  
+
+  div ~ p {
+    color: rgb(84, 133, 84);
+  }
+  
+
+  div + p {
+    color: rgb(246, 68, 246);
+  }
+  
