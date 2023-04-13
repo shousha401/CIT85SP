@@ -1,0 +1,19 @@
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Flex items */
+.flex-item {
+  width: 400px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Flex item #2 with a grow factor of 2 */
+.flex-item.grow-2 {
+  flex-grow: 2;
+}
