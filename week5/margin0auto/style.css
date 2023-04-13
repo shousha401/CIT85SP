@@ -1,0 +1,41 @@
+.first-div {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.second-div {
+    position: absolute;
+    top: 27.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px double black;
+    background-color: green;
+    width:50%;
+
+
+}
+
+
+.circle-image {
+    display: inline-block;
+    border: 5px solid yellow;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+h1, h2 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: left;
+}

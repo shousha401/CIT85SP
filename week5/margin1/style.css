@@ -1,0 +1,33 @@
+.outer-div {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .inner-div {
+    border: 2px solid grey;
+    padding: 10px;
+  }
+  
+  .small-div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
