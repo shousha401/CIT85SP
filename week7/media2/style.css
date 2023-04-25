@@ -1,0 +1,61 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.box h1 {
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(50% - 2px);
+  height: 100px;
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.box.red {
+  background-color: red;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.box.orange {
+  background-color: orange;
+  width: calc(70% - 2px);
+  border: 1px solid black;
+
+}
+
+.box.yellow {
+  background-color: yellow;
+  width: calc(30% - 2px);
+  border: 1px solid black;
+
+}
+
+.box.green {
+  background-color: green;
+  width: calc(50% - 2px);
+  border: 1px solid black;
+
+}
+
+.box.blue {
+  background-color: blue;
+  width: calc(50% - 2px);
+  border: 1px solid black;
+
+}
+
