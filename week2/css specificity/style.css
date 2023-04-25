@@ -1,50 +1,55 @@
 div, p, h1 {
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-  }
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
 
-  .blue {
-    color: blue;
-  }
+  	/* Specificity: 0-0-0-1 */
+	h1 {
+		color: red;
+	}
 
-  .red {
-    color: rgb(132, 36, 36);
-  }
+	/* Specificity: 0-0-1-0 */
+	.class-1 p {
+		color: blue;
+	}
 
-  .green {
-    color: rgb(32, 185, 32);
-  }
+	/* Specificity: 0-0-1-1 */
+	.class-1 .class-2 {
+		color: green;
+	}
 
-  #myDiv {
-    color: rgb(144, 100, 18);
-  }
-/* 1 element selector  */
-  a {
-    color: rgb(189, 16, 189);
-  }
-/* 1 element selector + 1 class selector */
-  p.blue {
-    color: rgb(52, 184, 184);
-  }
+	/* Specificity: 0-1-0-0 */
+	div#my-div {
+		color: purple;
+	}
 
-  /* 1 element selector + 1 class selector */
-  p.red {
-    color: rgb(93, 9, 9);
-  }
+	/* Specificity: 0-1-0-1 */
+	div p {
+		color: orange;
+	}
 
-  /* 1 element selector + 1 class selector */
-  p.green {
-    color: rgb(31, 94, 31);
-  }
+	/* Specificity: 0-1-1-0 */
+	#my-div p {
+		color: brown;
+	}
 
-  /* 2 element selectors */
-  div p {
-    color: rgb(50, 50, 168);
-  }
+	/* Specificity: 0-1-1-1 */
+	div.class-1 .class-2 {
+		color: gray;
+	}
 
+	/* Specificity: 1-0-0-0 */
+	body h1 {
+		color: pink;
+	}
 
-  /*  1 id selector + 1 element selector */
-  #myDiv a {
-    color: rgb(32, 32, 4);
-  }
+	/* Specificity: 1-0-0-1 */
+	body .class-1 {
+		color: yellow;
+	}
+
+	/* Specificity: 1-0-1-0 */
+	body div#my-div {
+		color: cyan;
+	}
