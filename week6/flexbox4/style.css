@@ -1,0 +1,10 @@
+.container { display: flex; flex-wrap: wrap; width: 30%; } 
+.item { width: 60%; height: 100px; } 
+.item:nth-child(2n) { width: 39%; } 
+.item:nth-child(3n) { width: 33%; }
+.item:nth-child(4n) { width: 33%; } 
+.item:nth-child(5n) { width: 33%; }
+.container { 
+  border: 1px double red;
+
+}
