@@ -1,0 +1,59 @@
+#div-container {
+
+  display: flex;
+  
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  
+  }
+  
+  #div-1 {
+  
+  width : 100%;
+  
+  height : 100px;
+  
+  background-color: yellow;
+  
+  border: 2px solid blue;
+  
+  }
+  
+  #div-2 {
+  
+  width : 20%;
+  
+  height : 150px;
+  
+  float: left;
+  
+  background-color: skyblue;
+  
+  border: 0.1rem solid black;
+  
+  }
+  
+  #div-3 {
+  
+  width : 79%;
+  
+  height : 150px;
+  
+  background-color: lightgreen;
+  
+  border: 0.1rem solid black;
+  
+  }
+  
+  #div-4 {
+  
+  width : 100%;
+  
+  height : 100px;
+  
+  background-color: purple;
+  
+  border: 2px solid red;
+  
+  }
