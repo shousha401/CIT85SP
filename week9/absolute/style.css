@@ -1,0 +1,15 @@
+.parent {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.child {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
