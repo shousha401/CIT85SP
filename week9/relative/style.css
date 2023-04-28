@@ -1,0 +1,13 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  margin: 10px;
+}
+
+.moved {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
