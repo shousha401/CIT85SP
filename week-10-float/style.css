@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    overflow: auto;
+    border: 1px solid #ccc;
+  }
+
+  .left-column {
+    width: 200px;
+    float: left;
+  }
+
+  .content {
+    margin-left: 220px; 
+  }
+
+  .full-width {
+    width: 100vw; 
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px; 
+  }
